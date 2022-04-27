@@ -1,0 +1,100 @@
+@import url('http://fonts.cdnfonts.com/css/azo-sans');
+
+* {
+    font-family: 'Azo Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.sec1{
+
+    background: url(/pic/back1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.videosec{
+    padding:  30px;
+    color: #fff;
+    margin: auto;
+    width: 60%;
+    display: block;
+    text-align: center;
+    [a]
+
+}
+.videosec img{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0px 15px 15px rgb(7 4 4 / 25%);
+}
+.videosec h1{
+    box-shadow: 0px 15px 15px rgb(7 4 4 / 25%);
+    font-size: xxx-large;
+}
+
+.videosec p{
+    font-size: 15px ;
+    font-weight: 300;
+}
+.videosec iframe{
+    box-shadow: 0px 15px 15px rgb(7 4 4 / 25%);
+    max-width: 960px;
+    max-height: 540px;
+    top: 0;
+    left: 0;
+
+    margin: 30px;
+}
+
+.buttonaccess {
+    
+    box-shadow: 0px 15px 15px rgb(7 4 4 / 25%);
+    
+    padding: 15px;
+    background-color: rgb(26, 143, 92);
+    border-radius: 20px;
+    max-width: fit-content;
+    margin:20px auto;
+    color: #fff;
+    background-color: #cf9038;
+    border: 5px solid #cf9038;
+
+}
+
+.buttonaccess:hover{
+    background-color: rgba(255, 0, 0, 0);
+}
+.pricing{
+    box-shadow: 0px 15px 15px rgb(7 4 4 / 25%);
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+    display: block;
+    min-height: 100px;
+    color: #fff;
+    background-color: #09b599;
+
+}
+
+.responsive-iframe {
+
+    height: 800px;
+    width: 800px;
+    overflow: auto;
+    background-color: red;
+
+}
+.sec2{
+    color:black;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+.sec2 h1,h2{
+    display: block;
+}
