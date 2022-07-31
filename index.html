@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FREE PROGRAM</title>
-    <link rel="icon" href="./pic/icon.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="icon" href="./pic/icon.png">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
 </head>
 
 <body>
@@ -17,7 +21,9 @@
             <img src="pic\logo (1).png" alt="logo">
             <h1><strong>LET US HELP GUIDE YOUR PURSUIT</strong></h1>
             <h1><strong>OF STRENGTH FOR LIFE</strong></h1>
-            <iframe type="text/html" frameborder="0" width="1920" height="1080" src="https://www.youtube.com/embed/TYeo5C2pkkc?autoplay=1&loop=1&playlist=TYeo5C2pkkc&rel=0" allowfullscreen></iframe>
+            <div class="video-warrper">
+                <iframe type="text/html" frameborder="0" width="100%" height="100%" src="https://www.youtube.com/embed/TYeo5C2pkkc?autoplay=1&loop=1&playlist=TYeo5C2pkkc&rel=0" allowfullscreen></iframe>
+            </div>
             <h2>WATCH THE VIDEO UNTIL THE END TO GET ALL THE DETAILS</h2>
             <div class="buttonaccess" style="cursor: pointer" ;>
                 <h2> GET ACCESS TO THE FREE PROGRAM NOW</h2>
@@ -26,6 +32,62 @@
     </div>
     <div class="pricing">
         <h1>"FREE"</h1>
+    </div>
+    <div class="testmonials">
+      <h1>TESTMONIALS</h1>
+      <P>READ WHAT OUR CLIENTS HAVE TO SAY</P>
+     <!-- Swiper -->
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+                <div class="swipper-slide-wrapper">
+                    <br> <br> 
+                    <img class="person-image" src="pic\jim.PNG" alt="jim">
+                    <img class="quote-image" src="pic\right-quote.png" alt="right-quote">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'</p>
+                    <h2>jim</h2>
+                </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="swipper-slide-wrapper">
+                    <br> <br> 
+                    <img class="person-image" src="pic\jim.PNG" alt="jim">
+                    <img class="quote-image" src="pic\right-quote.png" alt="right-quote">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'</p>
+                    <h2>jim</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="swipper-slide-wrapper">
+                    <br> <br> 
+                    <img class="person-image" src="pic\jim.PNG" alt="jim">
+                   <img class="quote-image" src="pic\right-quote.png" alt="right-quote">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'</p>
+                    <h2>jim</h2>
+          </div>
+          <div class="swiper-slide">
+
+          </div>
+          <div class="swiper-slide">
+
+          </div>
+          <div class="swiper-slide">
+
+          </div>
+          <div class="swiper-slide">
+
+          </div>
+          <div class="swiper-slide">
+
+          </div>
+          <div class="swiper-slide">
+
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
     </div>
     <div class="sec2">
         <div class="backgroundtext">ABOUT</div>
@@ -50,10 +112,30 @@
 
 
     </div>
+    
+    
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-
-
-
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
 </body>
 
 </html>
