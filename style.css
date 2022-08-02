@@ -16,79 +16,70 @@ body {
   position: relative;
   height: 100%;
 }
-
 .testmonials{
-   
-    font-size: x-large;
-    font-weight: bolder;
-    text-align: center;
-    padding: 100px 50px ;
-    max-width: 1200px;
-    margin: auto;
-    color: #ffffff;
- 
-}
-.testmonials h1{
-    line-height: 35px;
-    font-weight: 900;
-}
-.testmonials P{
-    font-size: large;
-    font-weight: 400;
+    overflow: hidden;
+    position: relative;
+    max-height: 800px;
 }
 .swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+    padding-top: 100px;
+    max-width: 100%;
+    max-height: 450px;
+  }
+  .swiper-wrapper{
+    padding-top: 100px;
+  }
 
-.swiper-slide {
-    padding: 100px;
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
-
-.swipper-slide-wrapper{
-    margin: auto;
-    max-width: 500px;
-    text-align: center;
-    padding: 20px 40px;
-    background-color: #09b599;
-    border-radius: 40px;
-    position: relative;
-    color: #fff;
+  .swiper-slide {
     text-transform: uppercase;
-    font-size: large;
-    font-weight: bold;
-    
-}
-.swipper-slide-wrapper h2{
-text-align: end;
-}
-.quote-image{
-    height: 30px;
-    width: auto;
-    position: absolute;
-    z-index: 10;
-    top: 20px;
-    left: 30px;
-    border-radius: 15px;
-    opacity: 70%;
+    color: #fff;
+    margin-left: 100px;
+    padding: 30px;
+    padding-top: 60px;
+    position: relative;
+    font-size: 18px;
+    background: #fff;
+    background-color: #09b599; ;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width: 450px;
+    max-height: 280px;
+  }
+
+  
+  .quote-image{
+height: 30px;
+width: auto;
+position: absolute;
+z-index: 10;
+top: 20px;
+left: 30px;
+border-radius: 15px;
+opacity: 70%;
 } 
 
 .person-image{
-    height: 80px;
-    width: auto;
-    position: absolute;
-    z-index: 10;
-    top: -25px;
-    left: -70px;
-    border-radius: 15px;
+height: 70px;
+width: auto;
+position: absolute;
+z-index: 10;
+top: -25px;
+left: -60px;
+border-radius: 15px;
 }
+.swiper-slide h2{
 
+margin: 0px;
+font-weight: 400;
+float: right;
+}
+.swiper-slide P{ 
+font-weight: 700;
+text-align: center; 
+margin: 0px;  
+font-size: larger;
 
+}
 
 
 .sec1 {
@@ -141,12 +132,12 @@ padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value
     box-shadow: 0px 15px 15px rgb(7 4 4 / 25%);
     padding: 15px;
     background-color: rgb(26, 143, 92);
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: fit-content;
     margin: 20px auto;
     color: #fff;
-    background-color: #cf9038;
-    border: 5px solid #cf9038;
+    background-color: #09b599;
+    border: 5px solid #09b599;
 }
 
 .buttonaccess:hover {
@@ -160,8 +151,10 @@ padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value
     line-height: 100px;
     display: block;
     min-height: 100px;
-    color: #fff;
-    background-color: #09b599;
+    color: #09b599;
+    background-color: #ffffff;
+    z-index: 999;
+
 }
 
 .responsive-iframe {
@@ -172,7 +165,7 @@ padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value
 }
 
 .sec2 {
-    visibility: hidden;
+    position: relative;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,5 +217,31 @@ padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value
     color: #cf9038;
 }
 
+.text-test{
+    line-height: 40px;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-top: 110px;
+    text-align: center;
+    color: white;
+}
+.swiper-slide swiper-slide-next{
+    opacity: 50%;
+}
+.headtext{
+    padding-left: 100px;
+    display: block;
+    margin: 100px 100px;
+}
+.button {
 
-
+    background: #09b599;
+    color: white;
+    border-radius: 12px;
+    font-size: 55px;
+    font-weight: bold;
+    width: 150px;
+    padding:  15px 20px;
+    text-align: center;
+    text-decoration: none;
+}
