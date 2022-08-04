@@ -35,15 +35,15 @@
     </div>
 
     <div  class="testmonials">
-      <img style="position: absolute; right: -200; top: -200; opacity: 20%;   transform: rotate(180deg);" src="pic\green_right-quote.png" alt="green_quote">
+      <img style="z-index: -99; position: absolute; right: -200; top: -200; opacity: 20%;   transform: rotate(180deg);" src="pic\green_right-quote.png" alt="green_quote">
 
       <div class="text-test">
       <h1>TESTMONIALS</h1>
-      <P style="font-weight: 300; font-size: x-large ;">READ WHAT OUR CLIENTS HAVE TO SAY</P>
+      <P >READ WHAT OUR CLIENTS HAVE TO SAY</P>
     </div>
           <!-- Swiper -->
     <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper"style="height: auto;">
         <div class="swiper-slide">
             <img class="person-image" src="pic\jim.PNG" alt="jim">
             <img class="quote-image" src="pic\right-quote.png" alt="right-quote">
@@ -88,49 +88,153 @@
 
       <div class="swiper-pagination"></div>
     </div>
-    <img style="position: absolute; left: -200; bottom: -300; opacity: 20%; " src="pic\green_right-quote.png" alt="green_quote">
+    <img class="delete"style="position: absolute; left: -200; bottom: -300; opacity: 20%; " src="pic\green_right-quote.png" alt="green_quote">
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     </div>
 
     <div class="sec2">
-        <div class="backgroundtext" style="position:absolute; right: -54; top:-100; font-weight: 700;">ABOUT</div>
-        <div class="headtext">
-          <div><a href="#" class="button">ABOUT ZAO</a></div>
+        <div class="backgroundtext" style="position:absolute; right: -54; top:-150; font-weight: 700;">ABOUT</div>
+
+        <div  class="sec2body">
+
+        <div class="sidetxtsec2">
+          <div class="headtext">
+            <div><a href="#" class="button">ABOUT ZAO</a></div>
+          </div>
+          <p> ZAO Strength is a
+              <Span id="gold">client-centric</Span>
+          </p>
+          <p> powerlifting coaching company </p>
+          <p>that utilizes
+              <Span id="gold"> agile </Span> coaching </p>
+          <p> principles to develop
+              <span id="mint"> unique</span>
+          </p>
+          <p>training systems for powerlifters </p>
+          <p>around the world.</p>
         </div>
+
         <div class="image">
-            <img src="./pic/CJ-46.webp" width="100%">
+            <img src="./pic/CJ-46.webp" >
         </div>
-        <p> ZAO Strength is a
-            <Span id="gold">client-centric</Span>
-        </p>
-        <p> powerlifting coaching company </p>
-        <p>that utilizes
-            <Span id="gold"> agile </Span> coaching </p>
-        <p> principles to develop
-            <span id="mint"> unique</span>
-        </p>
-        <p>training systems for powerlifters </p>
-        <p>around the world.</p>
 
-
-
+      </div>
+        <img class="whitezao" src="pic\logo (1)_WHITE.png" alt="zao white">
     </div>
+    <div class="pricing">
+      <h1>"HOW CAN I HELP YOU?"</h1>
+  </div>
 
 
-   
+  <div style="  position: relative;" class="sec4">
+    <div class="backgroundtext" style="z-index: -999; font-size: 350px; position:absolute; left: -800; top: -150px;; font-weight: 700;">FAQ</div>
+    <h1 style="margin-bottom: 50px ;" >frequently asked questions</h1>
+   <div class="cardwrapper">
+     <button onclick="myFunction(event,'carddropdown')" class="card">
+      <h1>is zao the best company ever?</h1>
+    </button>
+    <div id="carddropdown" class="carddropdown">
+      <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h2>
+    </div>
+  </div>
+  <div class="cardwrapper">
+    <button onclick="myFunction(event,'carddropdown1')" class="card">
+     <h1>is zao the best company ever?</h1>
+   </button>
+   <div id="carddropdown1" class="carddropdown">
+    <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h2>
+  </div>
+ </div>
+ <div class="cardwrapper">
+  <button onclick="myFunction(event,'carddropdown2')" class="card">
+   <h1>is zao the best company ever?</h1>
+ </button>
+ <div id="carddropdown2" class="carddropdown">
+  <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h2>
+</div>
+</div>
+<div class="cardwrapper">
+  <button onclick="myFunction(event,'carddropdown3')" class="card">
+   <h1>is zao the best company ever?</h1>
+ </button>
+ <div id="carddropdown3" class="carddropdown">
+  <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h2>
+</div>
+</div>
+
+
+</div>
+<div class="sec5">
+  <div class="backgroundtext2" >PROGRAM</div>
+  <div class="sec5wrapper">
+  <h1>GET YOUR</h1>
+  <h1>Free PROGRAM</h1>
+  <div class="formwrapper">
+    <form id=myForm>
+      <input class="field1" name="name" placeholder="FIRST NAME">
+      <input class="field2" name="email" placeholder="E-MAIL">
+      <button class="field3" onclick="SubForm()">APPLY</button>
+      </form>
+  </div>
+</div>
+</div>
+
+
+  </div>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
   
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
+
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/OOZg7DuXOOo33ktm/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+
+
+function myFunction(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("carddropdown");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("card");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+
+
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
+      slidesPerView:3,
       spaceBetween: 100,
       slidesPerGroup: 1,
       loop: true,
-      loopFillGroupWithBlank: true,
+      centeredSlides: true,
+
+     
+      
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
